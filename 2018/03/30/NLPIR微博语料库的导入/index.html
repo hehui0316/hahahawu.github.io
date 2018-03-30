@@ -87,12 +87,12 @@
 <meta property="og:site_name" content="hahahawu的个人博客">
 <meta property="og:description" content="可以说是这几天最值得开心的事了！！！总算搞到了微博语料库，还是500万条！！！感谢NLPIR！ 别的不说先丢出微博语料库的位置 ：传送门 下载下来的文件为一个压缩文件，解压就不用说了吧。解压完成之后就可以得到一个大约2.1G大小的txt文件。。。你没看错就是txt文件。接下来怎么将txt导入MySQL就是最大的问题了。 我用的方法是：用Emeditor打开这个超大的txt文件，然后参照着第一行给出">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.hahahawu.com/2018/03/30/NLPIR微博语料库的导入/images/navicat.png">
-<meta property="og:updated_time" content="2018-03-30T08:07:56.703Z">
+<meta property="og:image" content="http://www.hahahawu.com/2018/03/30/NLPIR微博语料库的导入/navicat.png">
+<meta property="og:updated_time" content="2018-03-30T08:28:22.520Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="NLPIR微博语料库的导入">
 <meta name="twitter:description" content="可以说是这几天最值得开心的事了！！！总算搞到了微博语料库，还是500万条！！！感谢NLPIR！ 别的不说先丢出微博语料库的位置 ：传送门 下载下来的文件为一个压缩文件，解压就不用说了吧。解压完成之后就可以得到一个大约2.1G大小的txt文件。。。你没看错就是txt文件。接下来怎么将txt导入MySQL就是最大的问题了。 我用的方法是：用Emeditor打开这个超大的txt文件，然后参照着第一行给出">
-<meta name="twitter:image" content="http://www.hahahawu.com/2018/03/30/NLPIR微博语料库的导入/images/navicat.png">
+<meta name="twitter:image" content="http://www.hahahawu.com/2018/03/30/NLPIR微博语料库的导入/navicat.png">
 
 
 
@@ -327,7 +327,7 @@
 <p>下载下来的文件为一个压缩文件，解压就不用说了吧。解压完成之后就可以得到一个大约2.1G大小的txt文件。。。你没看错就是txt文件。接下来怎么将txt导入MySQL就是最大的问题了。</p>
 <p>我用的方法是：用Emeditor打开这个超大的txt文件，然后参照着第一行给出的属性自己建表，这个过程略微繁琐。各个字段的含义可以参见<a href="http://open.weibo.com/wiki/2/statuses/home_timeline" target="_blank" rel="noopener">Weibo API</a>。</p>
 <p>建完表后，删去首行。为了防止修改出现什么问题，最好先做个备份。接着，我之前一直使用的mysql图形工具是MySQL官方推出的workbench，但是在导入文件时发现，workbench只能导入.csv和.json格式的文件！没办法，重新下载安装来了Navicat，在Navicat里面选择导入向导，发现可以导入.txt文件。接着，就开始开心愉快的导入工作，差不多得一个多小时吧。。。看个人电脑配置了。</p>
-<p><img src="./images/navicat.png" alt="" title="导入过程"></p>
+<p><img src="/2018/03/30/NLPIR微博语料库的导入/navicat.png" alt="" title="导入过程"></p>
 <p>导入过程中的错误多半是表的数据结构设计的问题，自己注意一下就好了。</p>
 <p>哈哈哈哈我总算迈出了毕设的第一步！！！</p>
 
